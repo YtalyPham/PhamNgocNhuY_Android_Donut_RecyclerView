@@ -46,6 +46,11 @@ public class DonutAdapter extends RecyclerView.Adapter<DonutAdapter.DonutViewHol
         return mDonutList.size();
     }
 
+    public void filterListH(ArrayList<Donut> filterlist){
+        mDonutList=filterlist;
+        notifyDataSetChanged();
+    }
+
     public class DonutViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public ImageView mImageView;
         public TextView tvName;

@@ -51,7 +51,7 @@
         android:textStyle="bold"
         app:backgroundTint="#C3C3C3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/editextS1" />
 
     <Button
         android:id="@+id/button2"
@@ -82,7 +82,7 @@
         app:layout_constraintTop_toTopOf="@+id/button2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editextS1"
         android:layout_width="300dp"
         android:layout_height="30dp"
         android:layout_marginTop="8dp"
@@ -99,9 +99,9 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintBottom_toBottomOf="@+id/editextS1"
+        app:layout_constraintStart_toEndOf="@+id/editextS1"
+        app:layout_constraintTop_toTopOf="@+id/editextS1"
         app:srcCompat="@drawable/search" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
